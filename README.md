@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This project uses real [OpenStreetMap](www.openstreetmap.org) and A* search algorithm to find a path between two points. The image below shows the output of the program with a path plotted.
 
 <img src="map.png" width="600" height="450" />
 
@@ -15,7 +15,10 @@ or with SSH:
 git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
 ```
 
-## Dependencies for Running Locally
+## Dependencies for Running
+
+You need the following dependencies to running this project:
+
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
